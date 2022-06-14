@@ -18,7 +18,7 @@ def main():
     for i in range(0, rango_medio):
         patron =  '.|.'*i + '.|.' + '.|.'*i
         print(patron.center(m, '-'))
-    #imprimiento la mitad
+    #imprimiendo en la mitad
     print('WELCOME'.center(m, '-'))
     #rango superior
     for i in range((rango_medio-1), -1, -1):
